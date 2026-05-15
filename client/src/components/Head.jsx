@@ -1,17 +1,13 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import { FaSignInAlt, FaUserPlus, FaTachometerAlt, FaGamepad, FaBars, FaTimes } from "react-icons/fa";
 import logo from "../assets/websitelogo.png";
 
 const Head = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
-
-  const closeMobileMenu = () => {
-    setIsMobileMenuOpen(false);
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
   };
 
   return (
@@ -22,29 +18,27 @@ const Head = () => {
         </Link>
       </div>
       
-      {/* Hamburger Menu Button */}
       <button 
-        className="hamburger-menu" 
-        onClick={toggleMobileMenu}
-        aria-label="Toggle mobile menu"
-        aria-expanded={isMobileMenuOpen}
+        className="hamburger-btn" 
+        onClick={toggleMenu} 
+        aria-label="Toggle navigation menu"
+        aria-expanded={menuOpen}
       >
-        {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
+        {menuOpen ? <FaTimes /> : <FaBars />}
       </button>
 
-      {/* Navigation */}
-      <div className={`header-nav ${isMobileMenuOpen ? 'active' : ''}`}>
-        <Link to="/Login" className="nav-link" onClick={closeMobileMenu}>
+      <div className={`header-nav ${menuOpen ? "open" : ""}`}>
+        <Link to="/Login" className="nav-link" onClick={() => setMenuOpen(false)}>
           <FaSignInAlt className="nav-icon" />
           <span>Login</span>
         </Link>
 
-        <Link to="/Signup" className="nav-link" onClick={closeMobileMenu}>
+        <Link to="/Signup" className="nav-link" onClick={() => setMenuOpen(false)}>
           <FaUserPlus className="nav-icon" />
           <span>Sign Up</span>
         </Link>
 
-        <Link to="/Dashboard" className="nav-link" onClick={closeMobileMenu}>
+        <Link to="/Dashboard" className="nav-link" onClick={() => setMenuOpen(false)}>
           <FaTachometerAlt className="nav-icon" />
           <span>Dashboard</span>
         </Link>

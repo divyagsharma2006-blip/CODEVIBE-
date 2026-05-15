@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
-import Spinner from './common/Spinner';
+import registerImage from "../assets/registerImage.png";
 
 const SignUp = () => {
   const [username, setUsername] = useState('');
@@ -43,90 +43,66 @@ const SignUp = () => {
   };
 
   return (
-    <div className="login-container">
-      <form className="login-form" onSubmit={handleSubmit}>
-        <h1>Sign Up</h1>
-
-        <div style={{ width: "100%" }}>
-          <label htmlFor="username">USERNAME:</label>
-          <input
-            id="username"
-            type="text"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            required
-            placeholder="Enter your username"
-            aria-label="Username"
-          />
+    <section className='login-section'>
+      <div className="login-container">
+        <div className="login-image">
+          <img src={registerImage} className='registerImage' alt="Register image" />
         </div>
+        <div className="login-card">
+          <form className="login-form" onSubmit={handleSubmit}>
+            <h1>Join Us Today ! </h1>
 
-        <div style={{ width: "100%" }}>
-          <label htmlFor="college">COLLEGE:</label>
-          <input
-            id="college"
-            type="text"
-            value={college}
-            onChange={(e) => setCollege(e.target.value)}
-            required
-            placeholder="Enter your college name"
-            aria-label="College"
-          />
+            <label>USERNAME:</label>
+            <input
+              type="text"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              required
+            />
+
+            <label>COLLEGE:</label>
+            <input
+              type="text"
+              value={college}
+              onChange={(e) => setCollege(e.target.value)}
+              required
+            />
+
+            <label>YEAR:</label>
+            <input
+              type="text"
+              value={year}
+              onChange={(e) => setYear(e.target.value)}
+              required
+            />
+
+            <label>EMAIL:</label>
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+
+            <label>PASSWORD:</label>
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+
+            <button type="submit">SUBMIT</button>
+
+            {responseMsg && <p style={{ color: "white" }}>{responseMsg}</p>}
+
+            <p>
+              Already have an account? <Link to="/login">Login</Link>
+            </p>
+          </form>
         </div>
-
-        <div style={{ width: "100%" }}>
-          <label htmlFor="year">YEAR:</label>
-          <input
-            id="year"
-            type="text"
-            value={year}
-            onChange={(e) => setYear(e.target.value)}
-            required
-            placeholder="Enter your year (e.g., 2nd, 3rd)"
-            aria-label="Year"
-          />
-        </div>
-
-        <div style={{ width: "100%" }}>
-          <label htmlFor="email">EMAIL:</label>
-          <input
-            id="email"
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            placeholder="Enter your email"
-            aria-label="Email address"
-          />
-        </div>
-
-        <div style={{ width: "100%" }}>
-          <label htmlFor="password">PASSWORD:</label>
-          <input
-            id="password"
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-            placeholder="Enter your password"
-            aria-label="Password"
-          />
-        </div>
-
-        <button type="submit" style={{ width: "100%" }}>
-          SUBMIT
-        </button>
-
-        {responseMsg && (
-          <p style={{ color: "white", textAlign: "center", margin: "0.5rem 0" }}>
-            {responseMsg}
-          </p>
-        )}
-
-        <p style={{ textAlign: "center", fontSize: "0.9rem" }}>
-          Already have an account? <Link to="/login">Login</Link>
-        </p>
-      </form>
-    </div>
+      </div>
+    </section>
   );
 };
 

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from 'react-router-dom';
+import forgotPic from "../assets/forgotPassword.png"
 
 const ForgotPassword = () => {
   const [email, setEmail] = useState("");
@@ -19,38 +20,34 @@ const ForgotPassword = () => {
   };
 
   return (
-    <div className="login-container">
-      <form className="login-form" onSubmit={handleSubmit}>
-        <h1>Forgot Password</h1>
+    <section className="login-section">
+     <div className="login-container">
+       <div className="login-image">
+        <img src={forgotPic} alt="Forgot image" srcset="" />
+      </div>
+      <div className="login-card">
+          <form className="login-form" onSubmit={handleSubmit}>
+            <h1>Forgot Your Password</h1>
 
-        <div style={{ width: "100%" }}>
-          <label htmlFor="email">EMAIL:</label>
-          <input
-            id="email"
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            placeholder="Enter your email"
-            aria-label="Email address"
-          />
-        </div>
+            <label>EMAIL:</label>
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
 
-        <button type="submit" style={{ width: "100%" }}>
-          Send OTP
-        </button>
+            <button type="submit">Send OTP</button>
 
-        {responseMsg && (
-          <p style={{ color: "white", textAlign: "center", margin: "0.5rem 0" }}>
-            {responseMsg}
-          </p>
-        )}
+            {responseMsg && <p style={{ color: "white" }}>{responseMsg}</p>}
 
-        <p style={{ textAlign: "center", fontSize: "0.9rem" }}>
-          Back to <Link to="/login">Login</Link>
-        </p>
-      </form>
-    </div>
+            <p>
+              Back to <Link to="/login">Login</Link>
+            </p>
+          </form>
+      </div>
+     </div>
+    </section>
   );
 };
 
