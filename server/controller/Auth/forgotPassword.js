@@ -36,8 +36,9 @@ const forgotPasswordLogic = async (req, res, next) => {
       return res.status(500).json({ message: "Email service not configured properly" });
     }
 
-    const resetLink = `http://localhost:5174/ResetPassword?token=${token}`; // Replace with actual frontend port
-
+    // Use environment variable if it exists, otherwise fallback to the live Netlify site
+    const clientUrl = process.env.CLIENT_URL || "https://codevibeforyou.netlify.app";
+    const resetLink = `${clientUrl}/ResetPassword?token=${token}`;
     const emailResponse = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: {
