@@ -14,7 +14,7 @@ Last updated: 2026-05-23
 
 | Rank | Contributor | Score | Commits | Merged PRs | Closed Issues |
 | --- | --- | ---: | ---: | ---: | ---: |
-| 1 | [@sricharan-213](https://github.com/sricharan-213) | 122 | 6 | 7 | 8 |
+| 1 | [@sricharan-213](https://github.com/sricharan-213) | 126 | 8 | 7 | 8 |
 | 2 | [@Aayuiiitmg](https://github.com/Aayuiiitmg) | 104 | 12 | 8 | 0 |
 | 3 | [@pranav-cholleti](https://github.com/pranav-cholleti) | 86 | 18 | 3 | 4 |
 | 4 | [@Mahi-19-design](https://github.com/Mahi-19-design) | 60 | 5 | 4 | 2 |
@@ -24,7 +24,7 @@ Last updated: 2026-05-23
 | 8 | [@StarDustNova-57](https://github.com/StarDustNova-57) | 41 | 3 | 2 | 3 |
 | 9 | [@advikdivekar](https://github.com/advikdivekar) | 40 | 5 | 3 | 0 |
 | 10 | [@divyagsharma2006-blip](https://github.com/divyagsharma2006-blip) | 34 | 2 | 2 | 2 |
-| 11 | [@namrarafique93-del](https://github.com/namrarafique93-del) | 32 | 1 | 2 | 2 |
+| 11 | [@namrarafique93-del](https://github.com/namrarafique93-del) | 34 | 2 | 2 | 2 |
 | 12 | [@jagrati7305](https://github.com/jagrati7305) | 31 | 3 | 2 | 1 |
 | 13 | [@indresh404](https://github.com/indresh404) | 27 | 6 | 1 | 1 |
 | 14 | [@shreyamevada6](https://github.com/shreyamevada6) | 26 | 3 | 1 | 2 |
@@ -57,11 +57,12 @@ Last updated: 2026-05-23
 | 41 | [@jadhavvedika758-web](https://github.com/jadhavvedika758-web) | 5 | 0 | 0 | 1 |
 | 42 | [@Kartikey-Pathak](https://github.com/Kartikey-Pathak) | 5 | 0 | 0 | 1 |
 | 43 | [@madhavcodes25](https://github.com/madhavcodes25) | 5 | 0 | 0 | 1 |
-| 44 | [@Ritika-gupta13](https://github.com/Ritika-gupta13) | 5 | 0 | 0 | 1 |
-| 45 | [@sanjam3712](https://github.com/sanjam3712) | 5 | 0 | 0 | 1 |
-| 46 | [@Soumipal56](https://github.com/Soumipal56) | 5 | 0 | 0 | 1 |
-| 47 | [@srisha4](https://github.com/srisha4) | 5 | 0 | 0 | 1 |
-| 48 | [@stuti-sudo-123](https://github.com/stuti-sudo-123) | 5 | 0 | 0 | 1 |
-| 49 | [@Suhani-ai-dev](https://github.com/Suhani-ai-dev) | 5 | 0 | 0 | 1 |
-| 50 | [@SupriyaShirsat05](https://github.com/SupriyaShirsat05) | 5 | 0 | 0 | 1 |
-| 51 | [@varsha-2503](https://github.com/varsha-2503) | 5 | 0 | 0 | 1 |
+| 44 | [@Owais-Siddique-11](https://github.com/Owais-Siddique-11) | 5 | 0 | 0 | 1 |
+| 45 | [@Ritika-gupta13](https://github.com/Ritika-gupta13) | 5 | 0 | 0 | 1 |
+| 46 | [@sanjam3712](https://github.com/sanjam3712) | 5 | 0 | 0 | 1 |
+| 47 | [@Soumipal56](https://github.com/Soumipal56) | 5 | 0 | 0 | 1 |
+| 48 | [@srisha4](https://github.com/srisha4) | 5 | 0 | 0 | 1 |
+| 49 | [@stuti-sudo-123](https://github.com/stuti-sudo-123) | 5 | 0 | 0 | 1 |
+| 50 | [@Suhani-ai-dev](https://github.com/Suhani-ai-dev) | 5 | 0 | 0 | 1 |
+| 51 | [@SupriyaShirsat05](https://github.com/SupriyaShirsat05) | 5 | 0 | 0 | 1 |
+| 52 | [@varsha-2503](https://github.com/varsha-2503) | 5 | 0 | 0 | 1 |
