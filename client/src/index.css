@@ -1217,6 +1217,7 @@ h3 {
   color: var(--white, #fff);
   background: transparent;
   box-shadow: none;
+  transform: translateY(-50%);
 }
 
 .login-form h1,
