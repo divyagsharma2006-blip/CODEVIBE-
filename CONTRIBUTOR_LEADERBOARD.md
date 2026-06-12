@@ -2,7 +2,7 @@
 
 This leaderboard is generated automatically for `divyagsharma2006-blip/CODEVIBE-` by GitHub Actions.
 
-Last updated: 2026-06-11
+Last updated: 2026-06-12
 
 ## Scoring
 
@@ -31,7 +31,7 @@ Last updated: 2026-06-11
 | 15 | [@jagrati7305](https://github.com/jagrati7305) | 6 | 3 | 0 | 0 |
 | 16 | [@pratiyushraj007-Dev](https://github.com/pratiyushraj007-Dev) | 6 | 3 | 0 | 0 |
 | 17 | [@shreyamevada6](https://github.com/shreyamevada6) | 6 | 3 | 0 | 0 |
-| 18 | [@StarDustNova-57](https://github.com/StarDustNova-57) | 6 | 3 | 0 | 0 |
+| 18 | [@Swetha-Varma-K](https://github.com/Swetha-Varma-K) | 6 | 3 | 0 | 0 |
 | 19 | [@Tech4Aditya](https://github.com/Tech4Aditya) | 6 | 3 | 0 | 0 |
 | 20 | [@namrarafique93-del](https://github.com/namrarafique93-del) | 4 | 2 | 0 | 0 |
 | 21 | [@Samirahs08](https://github.com/Samirahs08) | 4 | 2 | 0 | 0 |
